@@ -1,24 +1,31 @@
 # vue-swiper-image-gallery
 
-## Project setup
+![preview](repoReadMeImages/preview.gif)
+
+Swiper.js currently support vue v3
+
+List of packages to install
+
+- `node-sass@4` - for using .scss files
+- `sass-loader` - for using .scss files
+- `swiper` - swiper.js
+- `@fortawesome/fontawesome-svg-core` - font awesome core icons
+- `@fortawesome/free-solid-svg-icons` - font awesome solid icons
+
 ```
-npm install
+npm i node-sass@4 sass-loader swiper
 ```
 
-### Compiles and hot-reloads for development
+Font Icons
+
 ```
-npm run serve
+$ npm i --save @fortawesome/fontawesome-svg-core
+$ npm i --save @fortawesome/free-solid-svg-icons
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+using font awesome with vue 3.x
 
-### Lints and fixes files
 ```
-npm run lint
-```
+$ npm i --save @fortawesomevue-fontawesome@prerelease
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
